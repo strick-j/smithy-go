@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/smithy-go/document"
-	"github.com/aws/smithy-go/document/internal/serde"
-	"github.com/aws/smithy-go/document/json"
 	"github.com/google/go-cmp/cmp"
+	"github.com/strick-j/smithy-go/document"
+	"github.com/strick-j/smithy-go/document/internal/serde"
+	"github.com/strick-j/smithy-go/document/json"
 )
 
 var decodeArrayTestCases = map[string]testCase{

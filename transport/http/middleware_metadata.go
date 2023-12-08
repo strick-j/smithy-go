@@ -3,7 +3,7 @@ package http
 import (
 	"context"
 
-	"github.com/aws/smithy-go/middleware"
+	"github.com/strick-j/smithy-go/middleware"
 )
 
 type (

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/aws/smithy-go/middleware"
+	"github.com/strick-j/smithy-go/middleware"
 )
 
 // ComputeContentLength provides a middleware to set the content-length

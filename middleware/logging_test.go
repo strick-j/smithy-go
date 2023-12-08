@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/aws/smithy-go/logging"
-	"github.com/aws/smithy-go/middleware"
+	"github.com/strick-j/smithy-go/logging"
+	"github.com/strick-j/smithy-go/middleware"
 )
 
 type mockWithContextLogger struct {

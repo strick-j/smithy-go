@@ -1,11 +1,11 @@
 package http
 
 import (
-	"testing"
 	"reflect"
-	smithy "github.com/aws/smithy-go"
-)
+	"testing"
 
+	smithy "github.com/strick-j/smithy-go"
+)
 
 func TestSigV4SigningName(t *testing.T) {
 	expected := "foo"

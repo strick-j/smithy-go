@@ -4,10 +4,11 @@ import (
 	"bytes"
 	"encoding/hex"
 	"fmt"
-	"github.com/aws/smithy-go/document"
 	"io"
 	"io/ioutil"
 	"net/http"
+
+	"github.com/strick-j/smithy-go/document"
 
 	"github.com/google/go-cmp/cmp"
 )

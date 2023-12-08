@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/aws/smithy-go/document"
-	"github.com/aws/smithy-go/document/internal/serde"
-	smithyjson "github.com/aws/smithy-go/encoding/json"
+	"github.com/strick-j/smithy-go/document"
+	"github.com/strick-j/smithy-go/document/internal/serde"
+	smithyjson "github.com/strick-j/smithy-go/encoding/json"
 )
 
 // EncoderOptions is the set of options that can be configured for an Encoder.

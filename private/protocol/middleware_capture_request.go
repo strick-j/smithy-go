@@ -3,10 +3,11 @@ package protocol
 import (
 	"context"
 	"fmt"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
 	"net/http"
 	"strconv"
+
+	"github.com/strick-j/smithy-go/middleware"
+	smithyhttp "github.com/strick-j/smithy-go/transport/http"
 )
 
 const captureRequestID = "CaptureProtocolTestRequest"

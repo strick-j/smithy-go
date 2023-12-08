@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/aws/smithy-go/logging"
+	"github.com/strick-j/smithy-go/logging"
 )
 
 func TestNewStandardLogger(t *testing.T) {

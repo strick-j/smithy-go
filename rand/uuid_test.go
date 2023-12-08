@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/smithy-go/rand"
+	"github.com/strick-j/smithy-go/rand"
 )
 
 func TestUUID(t *testing.T) {

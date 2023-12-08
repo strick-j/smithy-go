@@ -2,7 +2,8 @@ package rulesfn
 
 import (
 	"testing"
-	"github.com/aws/smithy-go/ptr"
+
+	"github.com/strick-j/smithy-go/ptr"
 )
 
 func TestSubString(t *testing.T) {

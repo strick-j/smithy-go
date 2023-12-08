@@ -1,10 +1,11 @@
 package serde
 
 import (
-	"github.com/aws/smithy-go/document"
 	"math/big"
 	"reflect"
 	"time"
+
+	"github.com/strick-j/smithy-go/document"
 )
 
 // ReflectTypeOf is a structure containing various reflect.Type members that are useful

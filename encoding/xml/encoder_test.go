@@ -6,7 +6,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/aws/smithy-go/encoding/xml"
+	"github.com/strick-j/smithy-go/encoding/xml"
 )
 
 var root = xml.StartElement{Name: xml.Name{Local: "root"}}
@@ -383,7 +383,6 @@ func TestEncodeListNamed(t *testing.T) {
 	verify(t, encoder, ex)
 }
 
-//
 func TestEncodeListShape(t *testing.T) {
 	b := bytes.NewBuffer(nil)
 	encoder := xml.NewEncoder(b)
@@ -415,7 +414,6 @@ func TestEncodeListShape(t *testing.T) {
 	verify(t, encoder, ex)
 }
 
-//
 func TestEncodeListFlattenShape(t *testing.T) {
 	b := bytes.NewBuffer(nil)
 	encoder := xml.NewEncoder(b)
@@ -445,7 +443,6 @@ func TestEncodeListFlattenShape(t *testing.T) {
 	verify(t, encoder, ex)
 }
 
-//
 func TestEncodeListNamedShape(t *testing.T) {
 	b := bytes.NewBuffer(nil)
 	encoder := xml.NewEncoder(b)

@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/aws/smithy-go"
+	"github.com/strick-j/smithy-go"
 )
 
 // Identity contains information that identifies who the user making the

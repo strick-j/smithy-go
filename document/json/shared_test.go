@@ -7,9 +7,9 @@ import (
 	"math/big"
 	"strconv"
 
-	"github.com/aws/smithy-go/document"
-	"github.com/aws/smithy-go/document/json"
-	"github.com/aws/smithy-go/ptr"
+	"github.com/strick-j/smithy-go/document"
+	"github.com/strick-j/smithy-go/document/json"
+	"github.com/strick-j/smithy-go/ptr"
 )
 
 type StructA struct {

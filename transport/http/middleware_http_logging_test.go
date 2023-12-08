@@ -10,10 +10,10 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/aws/smithy-go/logging"
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
 	"github.com/google/go-cmp/cmp"
+	"github.com/strick-j/smithy-go/logging"
+	"github.com/strick-j/smithy-go/middleware"
+	smithyhttp "github.com/strick-j/smithy-go/transport/http"
 )
 
 type mockLogger struct {

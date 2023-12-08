@@ -1,5 +1,5 @@
-module github.com/aws/smithy-go
+module github.com/strick-j/smithy-go
 
-go 1.19
+go 1.21.4
 
-require github.com/google/go-cmp v0.5.8
+require github.com/google/go-cmp v0.6.0

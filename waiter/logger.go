@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/aws/smithy-go/logging"
-	"github.com/aws/smithy-go/middleware"
+	"github.com/strick-j/smithy-go/logging"
+	"github.com/strick-j/smithy-go/middleware"
 )
 
 // Logger is the Logger middleware used by the waiter to log an attempt

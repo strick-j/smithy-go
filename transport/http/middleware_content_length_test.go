@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/smithy-go/middleware"
+	"github.com/strick-j/smithy-go/middleware"
 )
 
 func TestContentLengthMiddleware(t *testing.T) {

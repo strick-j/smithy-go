@@ -1,6 +1,6 @@
 package http
 
-import smithy "github.com/aws/smithy-go"
+import smithy "github.com/strick-j/smithy-go"
 
 type (
 	sigV4SigningNameKey   struct{}

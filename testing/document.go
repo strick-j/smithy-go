@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/aws/smithy-go/testing/xml"
+	"github.com/strick-j/smithy-go/testing/xml"
 
 	"github.com/google/go-cmp/cmp"
 )

@@ -2,15 +2,16 @@ package protocol
 
 import (
 	"context"
-	"github.com/aws/smithy-go/middleware"
-	smithytesting "github.com/aws/smithy-go/testing"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
 	"io"
 	"io/ioutil"
 	"net/http"
 	"net/url"
 	"strings"
 	"testing"
+
+	"github.com/strick-j/smithy-go/middleware"
+	smithytesting "github.com/strick-j/smithy-go/testing"
+	smithyhttp "github.com/strick-j/smithy-go/transport/http"
 )
 
 // TestAddCaptureRequestMiddleware tests AddCaptureRequestMiddleware

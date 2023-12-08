@@ -10,7 +10,7 @@ package lru
 import (
 	"container/list"
 
-	"github.com/aws/smithy-go/container/private/cache"
+	"github.com/strick-j/smithy-go/container/private/cache"
 )
 
 // New creates a new LRU cache with the given capacity.

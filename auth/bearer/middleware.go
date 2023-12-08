@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/aws/smithy-go/middleware"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/strick-j/smithy-go/middleware"
+	smithyhttp "github.com/strick-j/smithy-go/transport/http"
 )
 
 // Message is the middleware stack's request transport message value.

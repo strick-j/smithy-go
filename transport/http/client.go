@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
-	smithy "github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/middleware"
+	smithy "github.com/strick-j/smithy-go"
+	"github.com/strick-j/smithy-go/middleware"
 )
 
 // ClientDo provides the interface for custom HTTP client implementations.

@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	smithytesting "github.com/aws/smithy-go/testing"
+	smithytesting "github.com/strick-j/smithy-go/testing"
 )
 
 func TestDiscardUnknownField(t *testing.T) {

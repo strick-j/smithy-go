@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/aws/smithy-go/middleware"
+	"github.com/strick-j/smithy-go/middleware"
 )
 
 const contentMD5Header = "Content-Md5"

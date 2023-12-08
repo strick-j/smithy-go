@@ -2,7 +2,8 @@ package http
 
 import (
 	"testing"
-	"github.com/aws/smithy-go/auth"
+
+	"github.com/strick-j/smithy-go/auth"
 )
 
 func TestAnonymousScheme(t *testing.T) {
@@ -19,4 +20,3 @@ func TestAnonymousScheme(t *testing.T) {
 		t.Errorf("AnonymousScheme constructor is not producing the correct signer")
 	}
 }
-

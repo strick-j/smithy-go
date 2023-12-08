@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/aws/smithy-go"
+	"github.com/strick-j/smithy-go"
 )
 
 // Endpoint is the endpoint object returned by Endpoint resolution V2

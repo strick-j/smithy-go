@@ -5,7 +5,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/aws/smithy-go/rand"
+	"github.com/strick-j/smithy-go/rand"
 )
 
 // ComputeDelay computes delay between waiter attempts. The function takes in a current attempt count,

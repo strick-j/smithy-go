@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/aws/smithy-go/middleware"
+	"github.com/strick-j/smithy-go/middleware"
 )
 
 func TestWithHeaderComment_CaseInsensitive(t *testing.T) {

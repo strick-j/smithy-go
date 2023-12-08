@@ -5,12 +5,13 @@ import (
 	"compress/gzip"
 	"context"
 	"fmt"
-	"github.com/aws/smithy-go/middleware"
-	"github.com/aws/smithy-go/transport/http"
 	"io"
 	"reflect"
 	"strings"
 	"testing"
+
+	"github.com/strick-j/smithy-go/middleware"
+	"github.com/strick-j/smithy-go/transport/http"
 )
 
 func TestRequestCompression(t *testing.T) {

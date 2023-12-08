@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/middleware"
+	"github.com/strick-j/smithy-go"
+	"github.com/strick-j/smithy-go/middleware"
 )
 
 func ExampleResponseError() {

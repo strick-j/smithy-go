@@ -1,9 +1,10 @@
 package auth
 
 import (
-	"testing"
 	"reflect"
-	smithy "github.com/aws/smithy-go"
+	"testing"
+
+	smithy "github.com/strick-j/smithy-go"
 )
 
 func TestAuthOptions(t *testing.T) {
@@ -15,10 +16,10 @@ func TestAuthOptions(t *testing.T) {
 
 	expected := []*Option{
 		&Option{
-			SchemeID: "fakeSchemeID",
+			SchemeID:           "fakeSchemeID",
 			IdentityProperties: ip,
-			SignerProperties: sp,
-		},	
+			SignerProperties:   sp,
+		},
 	}
 
 	var m smithy.Properties

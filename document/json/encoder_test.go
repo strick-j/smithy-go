@@ -1,12 +1,13 @@
 package json_test
 
 import (
-	"github.com/aws/smithy-go/document"
-	"github.com/aws/smithy-go/document/internal/serde"
-	"github.com/aws/smithy-go/document/json"
-	"github.com/google/go-cmp/cmp"
 	"testing"
 	"time"
+
+	"github.com/google/go-cmp/cmp"
+	"github.com/strick-j/smithy-go/document"
+	"github.com/strick-j/smithy-go/document/internal/serde"
+	"github.com/strick-j/smithy-go/document/json"
 )
 
 func TestEncoder_Encode(t *testing.T) {
